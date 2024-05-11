@@ -32,5 +32,5 @@ export async function getWeather(city: string): Promise<WeatherData | null> {
 }
 
 export function getCitiesList(): City[] {
-  return cities.filter((city: City) => city.country === 'IN').sort((a, b) => a.name.localeCompare(b.name));
+  return cities.filter((city: City) => city.country === 'NP').sort((a, b) => a.name.localeCompare(b.name));
 }
